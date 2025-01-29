@@ -7,6 +7,9 @@ import Button from '@/components/ui/button';
 import { useTranslation } from 'next-i18next';
 import * as yup from 'yup';
 import { GoogleIcon } from '@/components/icons/google';
+import {WeChatIcon} from '@/components/icons/wechat-icon';
+
+// import { MessageSquare } from 'lucide-react';
 import { useModalAction } from '@/components/ui/modal/modal.context';
 import { MobileIcon } from '@/components/icons/mobile-icon';
 import { Form } from '@/components/ui/forms/form';
@@ -107,6 +110,16 @@ function LoginForm() {
         >
           <GoogleIcon className="w-4 h-4 ltr:mr-3 rtl:ml-3" />
           {t('text-login-google')}
+        </Button>
+        <Button
+          className="!bg-[#07C160] !text-white hover:!bg-[#06ad54]"
+          disabled={isLoading}
+          onClick={() => {
+            
+          }}
+        >
+          <WeChatIcon className="text-white" width={24} height={24} />
+          {t('text-login-wechat')}
         </Button>
 
         <Button

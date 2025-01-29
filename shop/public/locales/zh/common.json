@@ -218,6 +218,7 @@
   "nav-menu-shops": "商店",
   "text-login-facebook": "使用 Facebook 登录",
   "text-login-google": "使用 Google 登录",
+  "text-login-wechat": "使用 Wechat登录",
   "text-note": "注意",
   "message-sub-order": "此订单有来自多个供应商的产品。所以我们把这个订单分成了多个供应商订单。",
   "error-min-contact": "联系电话必须至少8位",
