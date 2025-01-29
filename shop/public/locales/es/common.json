@@ -213,6 +213,7 @@
   "text-login-facebook": "Iniciar sesión con Facebook",
   "text-login-google": "Iniciar sesión con Google",
   "text-login-wechat": "Iniciar sesión con WeChat",
+  "text-login-QQ" : "Iniciar sesión con QQ",
   "text-note": "Nota",
   "message-sub-order": "Este pedido tiene productos de varios proveedores. Así que dividimos este pedido en varios pedidos de proveedores.",
   "error-min-contact": "El número de contacto debe tener al menos 8 dígitos",
