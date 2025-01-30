@@ -8,8 +8,8 @@ import { useTranslation } from 'next-i18next';
 import * as yup from 'yup';
 import { GoogleIcon } from '@/components/icons/google';
 import { WeChatIcon } from '@/components/icons/wechat-icon';
-
 import { QQIcon } from '@/components/icons/qq-icon';
+import {FacebookIcon} from '../icons/facebook';
 import { useModalAction } from '@/components/ui/modal/modal.context';
 import { MobileIcon } from '@/components/icons/mobile-icon';
 import { Form } from '@/components/ui/forms/form';
@@ -130,6 +130,16 @@ function LoginForm() {
         >
           <QQIcon className="text-white" width={24} height={24} />
           {t('text-login-QQ')}
+        </Button>
+        <Button
+          className="!bg-[#12B7F5] !text-white hover:!bg-[#0FA2D9]"
+          disabled={isLoading}
+          onClick={() => {
+
+          }}
+        >
+          <FacebookIcon className="text-white" width={24} height={24} />
+          {t('text-login-facebook')}
         </Button>
 
         <Button
